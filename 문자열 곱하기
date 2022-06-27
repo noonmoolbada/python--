@@ -1,3 +1,16 @@
 #화면에 '-'을 80개 출력하시오.
 
 print("-" * 80)
+
+
+
+
+#변수에 다음과 같은 문자열이 바인딩되어 있다.
+t1 = 'python'
+t2 = 'java'
+
+#문자열 더하기와 곱하기를 이용해서 아래와 같이 출력되게 해보자.
+#python java python java python java python java
+
+t3 = t1 + ' ' + t2 + ' '
+print(t3 * 4)
