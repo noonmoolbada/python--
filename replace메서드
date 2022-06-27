@@ -5,3 +5,12 @@ phone_number = "010-1111-2222"
 #위의 전화번호에서 -를 없애고 010 1111 2222 가 되도록 출력하시오.
 phone_number1 = phone_number.replace("-"," ")
 print(phone_number1)
+
+
+
+#아래 코드의 실행 결과를 예측해보자.
+string = 'abcd'
+string.replace('b','B')
+print(string)
+
+#답은 abcd가 나온다. replace 메서드를 사용하면 원본은 그대로 둔채로 변경된 새로운 문자열 객체를 리턴해준다.
