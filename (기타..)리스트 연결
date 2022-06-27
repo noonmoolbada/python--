@@ -1,0 +1,28 @@
+interest 리스트에는 아래의 데이터가 바인딩되어 있다.
+interest = ['삼성전자', 'LG전자', 'Naver']
+interest 리스트를 사용하여 아래와 같이 화면에 출력하라.
+출력 예시:
+삼성전자 Naver
+
+print(interest[0], interest[2])
+
+
+
+
+join 메서드
+interest = ['삼성전자', 'LG전자', 'Naver', 'SK하이닉스', '미래에셋대우']
+print(" ".join(interest))
+
+
+
+
+다음 딕셔너리에서 메로나를 삭제하라.
+
+ice = {'메로나': 1000,
+       '폴로포': 1200,
+       '빵빠레': 1800,
+       '죠스바': 1200,
+       '월드콘': 1500}
+
+del ice['메로나']
+print(ice)
