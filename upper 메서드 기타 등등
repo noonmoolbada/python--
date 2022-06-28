@@ -52,3 +52,42 @@ data = data.rstrip()
 
 
 
+
+이름의 첫 글자를 대문자로 변경해서 출력하라.
+리스트 = ['dog', 'cat', 'parrot']
+Dog
+Cat
+Parrot
+
+for 이름 in 리스트:
+  print(이름[0].upper()+이름[1:])
+  
+  
+  
+  
+99부터 0까지 1씩 감소하는 숫자들을, 한 라인에 하나씩 출력하라.
+for i in range(99,0,-1):
+  print(i)
+  
+  
+  
+  
+for문을 사용해서 아래와 같이 출력하라.
+
+0.0
+0.1
+0.2
+0.3
+0.4
+0.5
+...
+0.9
+
+for num in range(10) :
+    print(num / 10)
+    
+    
+    
+    
+    
+    
